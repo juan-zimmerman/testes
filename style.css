@@ -1,9 +1,62 @@
-.header__logo{
-    width: 10em;
-    transition: transform 0.3s;
-    transform: scale(1);
+/*.caixa__pai {
+    display: grid;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: solid 4px red;
+    padding: 10px;
+    height: 400px;
+    align-content: stretch;
+    background: rgb(208, 255, 0);
+
 }
 
-.header__logo:hover{
-    transform: scale(1.1);
+.caixa__filho {
+    display: flex;
+    border: dotted 2px black;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.p1 {
+    flex: 1;
+    display: flex;
+    background: rgba(255, 0, 0, 0.904);
+    color: rgb(7, 6, 6);
+}
+
+.p2 {
+    flex: 1;
+    display: flex;
+    background: rgba(0, 255, 64, 0.473);
+}
+
+.p3 {
+    flex: 1;
+    display: flex;
+    background: rgba(240, 0, 248, 0.514);
+}
+
+.p4 {
+    flex: 1;
+    display: flex;
+    background: rgba(0, 245, 245, 0.473);
+}
+
+.p5 {
+    flex: 1;
+    display: flex;
+    background: rgba(255, 136, 0, 0.418);
+}
+
+/*https: //www.alura.com.br/artigos/css-grid-guia-propriedades-grid-container-grid-item?utm_term=&utm_campaign=&utm_source=adwords&utm_medium=ppc&hsa_acc=7964138385&hsa_cam=20987928442&hsa_grp=157916200306&hsa_ad=689395782879&hsa_src=g&hsa_tgt=dsa-2273097816642&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=CjwKCAjwte-vBhBFEiwAQSv_xVTwCrMeWKaOFOZRyrzXuqmgD0nwVz8mfP0nosq6sxvw4QIPc-1pMxoCKEcQAvD_BwE
+*/
+
+.col-md-1,.col-md-4,.col-md-6,.col-md-8{
+    background: rgb(58, 145, 196);
+    border: solid 1px black;
+    text-align: center;
+}
+.row{
+    margin: 1%;
 }
